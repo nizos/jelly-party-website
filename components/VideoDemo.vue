@@ -16,7 +16,7 @@
       >
         <video
           style="max-width: 1080px"
-          autoplay
+          muted
           loop
           src="~/assets/promo.webm"
           width="100%"
@@ -27,7 +27,29 @@
 </template>
 
 <script>
-export default {}
+export default {
+  mounted() {
+    const options = {
+      root: null, // default to viewport
+      rootMargin: '0px',
+      threshold: 0.8
+    }
+    const target = document.querySelector('video')
+    const callback = (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.intersectionRatio > 0) {
+          if (target.paused) {
+            target.play()
+            observer.unobserve(entry.target)
+            console.log('Autoplaying with IntersectionObserver!')
+          }
+        }
+      })
+    }
+    const observer = new IntersectionObserver(callback, options)
+    observer.observe(target)
+  }
+}
 </script>
 
 <style scoped>
