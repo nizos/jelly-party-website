@@ -4,7 +4,12 @@
       <!-- Content here -->
       <b-navbar-toggle target="nav-collapse">
         <template v-slot:default>
-          <b-icon icon="list" width="1.5em" height="1.5em"></b-icon>
+          <b-icon
+            color="white"
+            icon="list"
+            width="1.5em"
+            height="1.5em"
+          ></b-icon>
         </template>
       </b-navbar-toggle>
 

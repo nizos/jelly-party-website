@@ -28,6 +28,11 @@ export default {
     HowItWorks,
     DiscordInvitation,
     FAQ
+  },
+  head() {
+    return {
+      title: 'Jelly-Party'
+    }
   }
 }
 </script>
