@@ -110,6 +110,6 @@ export default {
 }
 
 .faq__nav-item {
-  padding: 1em;
+  padding: 1em !important;
 }
 </style>
