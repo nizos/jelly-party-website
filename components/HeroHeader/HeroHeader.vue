@@ -1,6 +1,6 @@
 <template>
   <b-jumbotron
-    style="min-height: 70vh; background: linear-gradient(to bottom right, #ff9494 0%, #ee64f6 100%); margin-top: 5vh"
+    style="min-height: 70vh; background: linear-gradient(to bottom right, #ff9494 0%, #ee64f6 100%);"
     class="mb-0"
   >
     <b-container>
