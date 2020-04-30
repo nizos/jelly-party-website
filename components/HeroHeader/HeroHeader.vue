@@ -77,8 +77,8 @@
           <a
             href="https://chrome.google.com/webstore/detail/jelly-party/aiecbkandfgpphpdilbaaagnampmdgpd"
             ><button
-              class="custom-button"
               id="ctaButton"
+              class="custom-button"
               style="--content: 'Get the extension now!';"
             >
               <div class="left"></div>
@@ -96,6 +96,9 @@ import gsap from 'gsap'
 import SupportedServices from './SupportedServices.vue'
 
 export default {
+  components: {
+    SupportedServices
+  },
   mounted() {
     function flickerAnimate(object) {
       const tl = gsap.timeline()
@@ -126,9 +129,6 @@ export default {
       excitement = 1
     })
     flickerAnimate(jellyfish)
-  },
-  components: {
-    SupportedServices
   }
 }
 </script>

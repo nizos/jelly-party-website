@@ -1,5 +1,6 @@
 <template>
   <b-container
+    id="gettingStarted"
     style="min-height: 60vh"
     class="d-flex flex-column justify-content-center align-items-center mt-5 mb-5"
   >

@@ -29,6 +29,11 @@ export default {
     DiscordInvitation,
     FAQ
   },
+  mounted() {
+    if (window.location.hash === '#gettingStarted') {
+      document.querySelector('#gettingStarted').scrollIntoView()
+    }
+  },
   head() {
     return {
       title: 'Jelly-Party'
