@@ -15,6 +15,7 @@
         class="mt-5 d-flex align-items-center justify-content-center mb-5 mt-5"
       >
         <video
+          id="alpha-video"
           style="max-width: 1080px"
           muted
           loop
@@ -101,7 +102,7 @@ export default {
       rootMargin: '0px',
       threshold: 0.8
     }
-    const target = document.querySelector('video')
+    const target = document.querySelector('#alpha-video')
     const callback = (entries, observer) => {
       entries.forEach((entry) => {
         if (entry.intersectionRatio > 0) {
