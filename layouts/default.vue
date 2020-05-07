@@ -12,7 +12,6 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mr+Bedfort&display=swap');
 body {
   font-family: 'Do Hyeon', sans-serif;
 }
