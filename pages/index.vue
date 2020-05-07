@@ -2,6 +2,7 @@
   <div>
     <Navbar />
     <HeroHeader />
+    <GettingStarted />
     <HowItWorks />
     <VideoDemo />
     <FAQ />
@@ -17,6 +18,7 @@ import VideoDemo from '~/components/VideoDemo.vue'
 import HeroHeader from '~/components/HeroHeader/HeroHeader.vue'
 import HowItWorks from '~/components/HowItWorks.vue'
 import DiscordInvitation from '~/components/DiscordInvitation.vue'
+import GettingStarted from '~/components/GettingStarted.vue'
 import FAQ from '~/components/FAQ.vue'
 
 export default {
@@ -27,7 +29,8 @@ export default {
     Footer,
     HowItWorks,
     DiscordInvitation,
-    FAQ
+    FAQ,
+    GettingStarted
   },
   mounted() {
     if (window.location.hash === '#gettingStarted') {

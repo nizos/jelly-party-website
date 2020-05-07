@@ -4,7 +4,7 @@
     style="min-height: 60vh"
     class="d-flex flex-column justify-content-center align-items-center mt-5 mb-5"
   >
-    <h1 class="display-4 text-center">Getting started.</h1>
+    <h1 class="display-4 text-center">FAQ.</h1>
 
     <b-container class="d-flex align-items-center">
       <VueFaqAccordion :items="myItems" />
