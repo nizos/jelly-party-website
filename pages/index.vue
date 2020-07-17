@@ -39,7 +39,7 @@ export default {
   },
   head() {
     return {
-      title: 'Jelly-Party'
+      title: 'Jelly Party'
     }
   }
 }
