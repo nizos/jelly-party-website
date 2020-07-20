@@ -68,6 +68,11 @@
             Jelly-Party synchronizes videos you play in your browser, so that
             you and your friends can enjoy your favorite content —
             <span style="font-weight: 600"> together.</span>
+            <br />
+            <br />
+            <small>
+              Please consider leaving us <a href="feedback">feedback</a>.
+            </small>
           </p>
         </b-col>
         <b-col

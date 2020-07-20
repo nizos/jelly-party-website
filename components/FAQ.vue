@@ -9,6 +9,9 @@
     <b-container class="d-flex align-items-center">
       <VueFaqAccordion :items="myItems" />
     </b-container>
+    <p class="text-center">
+      Please consider leaving us <a href="feedback">feedback</a>.
+    </p>
   </b-container>
 </template>
 

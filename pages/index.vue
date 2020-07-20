@@ -1,19 +1,15 @@
 <template>
   <div>
-    <Navbar />
     <HeroHeader />
     <GettingStarted />
     <HowItWorks />
     <VideoDemo />
     <FAQ />
     <DiscordInvitation />
-    <Footer />
   </div>
 </template>
 
 <script>
-import Navbar from '~/components/Navbar.vue'
-import Footer from '~/components/Footer.vue'
 import VideoDemo from '~/components/VideoDemo.vue'
 import HeroHeader from '~/components/HeroHeader/HeroHeader.vue'
 import HowItWorks from '~/components/HowItWorks.vue'
@@ -23,10 +19,8 @@ import FAQ from '~/components/FAQ.vue'
 
 export default {
   components: {
-    Navbar,
     HeroHeader,
     VideoDemo,
-    Footer,
     HowItWorks,
     DiscordInvitation,
     FAQ,

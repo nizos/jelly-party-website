@@ -8,7 +8,8 @@
         Got Feedback? We're listening.
       </h1>
       <p class="text-center text-white lead">
-        Simply join our discord channel and let us know. <br />
+        Simply join our discord channel and let us know. Or fill out our
+        <a href="feedback">feedback form</a>. <br />
       </p>
       <iframe
         src="https://discordapp.com/widget?id=702231955391119471&theme=dark"
