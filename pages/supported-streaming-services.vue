@@ -45,6 +45,12 @@ export default {
           videoSynchronization: '✓',
           chat: '✓',
           fullscreen: '✓'
+        },
+        {
+          streamingService: 'PrimeVideo',
+          videoSynchronization: '✓',
+          chat: '✓',
+          fullscreen: '✓'
         }
       ]
     }
